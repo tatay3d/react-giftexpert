@@ -1,0 +1,41 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  padding: 60px;
+}
+input{
+  width: 100%;
+  font-size: 1.3rem;
+  color:gray;
+}
+
+.card{
+  align-content: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: hidden;
+  max-width: 250px;
+  float: left;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+ 
+  max-height: 150px;
+}
+
+.card p{
+  text-align: center;
+  font-size: 80%;
+
+
+}
+
+.card-grid{
+  display: flex;
+  flex-direction: row ; 
+  flex-wrap: wrap;
+}
