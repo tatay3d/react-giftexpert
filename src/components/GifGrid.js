@@ -1,6 +1,6 @@
 import React from 'react'
 import { useFecthGifts } from '../hooks/useFecthGifs'
-//import getGifts from '../helpers/getGifts';
+
 import Gift from './Gift';
 
 export const GifGrid = ({category}) => {
